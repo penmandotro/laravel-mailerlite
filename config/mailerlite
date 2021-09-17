@@ -5,6 +5,6 @@ return [
     /*
      * Mailer Lite API Key
      */
-    'api_key' => env('MAILER_LITE_API_KEY'),
+    'api_key' => env('MAILERLITE_API_KEY'),
 
 ];

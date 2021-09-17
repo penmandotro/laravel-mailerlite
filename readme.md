@@ -23,13 +23,7 @@ Laravel MailerLite requires connection configuration. To get started, you'll nee
 $ php artisan vendor:publish --provider="RankFoundry\MailerLite\MailerLiteProvider"
 ```
 
-This will create a `config/mailerlite.php` file in your app that you can modify to set your configuration. 
-
-You are free to change the configuration file as needed, but the default expected values are below:
-
-```php
-API_KEY=
-```
+Add `MAILERLITE_API_KEY=` to your enviroment configuraiton file
 
 
 ## Usage

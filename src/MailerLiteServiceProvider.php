@@ -13,7 +13,7 @@ class MailerLiteServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../config/mailerlite.php' => config_path('mailerlite.php'),
-        ]);
+        ], 'config');
     }
     
     public function register()
@@ -29,7 +29,7 @@ class MailerLiteServiceProvider extends ServiceProvider
     protected function registerMailerLite()
     {
         $this->app->bind('mailerlite', function ($app) {
-            return new MailerLite($app['config']['mailerlite.api_key']);
+            return new MailerLite(config('mailerlite.api_key'));
         });
     }
 }

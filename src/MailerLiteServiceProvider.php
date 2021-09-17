@@ -12,7 +12,7 @@ class MailerLiteServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../config/mailerlite.php' => config_path('mailerlite.php'),
+            __DIR__ . '/../config' => config_path(),
         ], 'config');
     }
     

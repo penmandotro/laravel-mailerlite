@@ -20,7 +20,7 @@ $ composer require rankfoundry/laravel-mailerlite
 Laravel MailerLite requires connection configuration. To get started, you'll need to publish all vendor assets:
 
 ```bash
-$ php artisan vendor:publish --provider="RankFoundry\MailerLite\MailerLiteProvider"
+$ php artisan vendor:publish --provider="RankFoundry\MailerLite\MailerLiteServiceProvider"
 ```
 
 Add `MAILERLITE_API_KEY=` to your enviroment configuraiton file

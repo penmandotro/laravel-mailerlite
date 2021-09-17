@@ -1,0 +1,10 @@
+<?php
+
+return [
+
+    /*
+     * Mailer Lite API Key
+     */
+    'api_key' => env('MAILER_LITE_API_KEY'),
+
+];

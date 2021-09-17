@@ -1,0 +1,33 @@
+{
+    "name": "rankfoundry/laravel-mailerlite",
+    "type": "library",
+    "license": "MIT",
+    "description": "Laravel wrapper for MailerLite PHP SDK",
+    "keywords": ["laravel", "mailerlite"],
+    "homepage": "https://rankfoundry.com",
+    "authors": [
+        {
+            "name": "Kevin Fairbanks",
+            "email": "kevin@rankfoundry.com"
+        }
+    ],
+    "require": {
+        "mailerlite/mailerlite-api-v2-php-sdk": "^0.3.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RankFoundry\\MailerLite\\MailerLiteServiceProvider"
+            ],
+            "aliases": {
+                "MailerLite": "RankFoundry\\MailerLite\\MailerLiteFacade"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "RankFoundry\\MailerLite\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}

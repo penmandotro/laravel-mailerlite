@@ -1,6 +1,6 @@
 <?php
 
-namespace RankFoundry\MailerLite;
+namespace Penmandotro\MailerLite;
 
 use Illuminate\Support\ServiceProvider;
 use MailerLiteApi\MailerLite;

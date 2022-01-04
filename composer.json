@@ -1,14 +1,14 @@
 {
-    "name": "rankfoundry/laravel-mailerlite",
+    "name": "penmandotro/laravel-mailerlite",
     "type": "library",
     "license": "MIT",
     "description": "Laravel wrapper for MailerLite PHP SDK",
     "keywords": ["laravel", "mailerlite"],
-    "homepage": "https://rankfoundry.com",
+    "homepage": "https://penman.ro",
     "authors": [
         {
-            "name": "Kevin Fairbanks",
-            "email": "kevin@rankfoundry.com"
+            "name": "Andreiasi Marian",
+            "email": "andreiasi.marian@penman.ro"
         }
     ],
     "require": {
@@ -17,10 +17,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RankFoundry\\MailerLite\\MailerLiteServiceProvider"
+                "Penmandotro\\MailerLite\\MailerLiteServiceProvider"
             ],
             "aliases": {
-                "MailerLite": "RankFoundry\\MailerLite\\MailerLiteFacade"
+                "MailerLite": "Penmandotro\\MailerLite\\MailerLiteFacade"
             }
         }
     },
